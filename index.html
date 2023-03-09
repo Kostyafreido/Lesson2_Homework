@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend</title>
+    <title>Konstantin resume</title>
 </head>
 <body>
-    <h1>My name is Kostya</h1>
+    <table cellspacing="15">
+        <tr>
+            <td>
+                <img src="./img/avatar.jpg" width="200" alt="Тут моя аватарка">
+            </td>
+            <td>
+                <h1>Константин Крусанов</h1>
+                <p><em>Я учусь программированию</em></p>
+                <p>Я прошёл курсы от <strong>HTML Academy</strong> и сейчас смотрю блог <strong>Tomkovich - Frontend Development</strong> на <a href="https://www.youtube.com/@Tomkovich" target="_blank">YouTube</a></p>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Мои социальные сети</h2>
+    <ul type="square">
+        <li><a href="https://instagram.com/kostya_freido" target="_blank">Instagram</a></li>
+        <li><a href="https://t.me/kost_freido" target="_blank">Telegram</a></li>
+    </ul>
+
+    <hr>
+
+    <h2>Мои хобби</h2>
+    <ol>
+        <li>Фотография</li>
+        <li>Просмотр фильмов и сериалов</li>
+        <li>Компьютерные игры</li>
+        <li>Чтение книг</li>
+    </ol>
+
+    <hr>
+
+    <h2>А ещё я фотографирую</h2>
+    <p>Посомтреть можно вот <a href="https:instagram.com/ph_krusanov" target="_blank">тут</a></p>
+
+    <h2>Связаться со мной</h2>
+    <form action="/">
+        <label for="name">Ваше имя</label>
+        <input type="text" id="name" placeholder="Введите имя">
+        <br>
+        <label for="email">Ваш Email</label>
+        <input type="text" id="email" placeholder="Введите email">
+        <br>
+        <label for="text">Ваше сообщение</label>
+        <textarea id="text" cols="15" rows="2" placeholder="Напиши сюда что-нибудь" autofocus></textarea>
+        <br>
+        <input type="submit" value="Связаться!">
+    </form>
 </body>
 </html>
